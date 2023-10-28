@@ -9,12 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Dela+Gothic+One&family=Roboto+Condensed&family=Roboto:wght@400;700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
     <header>
-        <div class="container">
+        <div class="container container-flex">
             <h1>Ebac Shoes</h1>
             <nav>
-                <div class="container">
+                <div class="container"></div>
                     <ul class="menu">
                         <li>Sobre a loja</li>
                         <li>Produtos</li>
@@ -24,10 +25,11 @@
         </div>
     </header>
     <section>
-        <div class="container">
+        <div class="container container-flex">
             <img class="store-front" src="./imagens/World-Tennis-cidade-jardim1-1200x900.jpg" alt="Imagem de nossa loja">
             <div>
-                <h2>Sobre a loja</h2>            
+                <h2>Sobre a loja</h2>  
+                <div id="linha"></div>          
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vel ipsa deleniti maiores sapiente totam quasi eos molestiae illo velit! Deserunt quam temporibus consequuntur ad excepturi laborum? Assumenda, necessitatibus ea.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates quaerat architecto voluptate numquam nesciunt nam illum saepe iste, ipsam tempore, recusandae, ut aperiam eum repellat quam tenetur dolorem corrupti.
@@ -35,11 +37,21 @@
             </div>
         </div>
     </section>
+
     <section>
-        <div>
+        <div class="container">
             <h2>Produtos</h2>
-            <ul>
+            <div id="linha"></div>
+            <ul class="container-flex lista">
                 <li>
+                    <img src="./imagens/xtenis_nike_preto.png.pagespeed.ic.HCCTeHFX3s.webp" alt="Tenis da nike">
+                    <h3>Tênis Nike Modelo Jordan</h3>
+                    <p>
+                        Tênis Nike preto disponível nos tamanhos: 37, 38, 39, 40 e 42
+                    </p>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+                <li class="item-central">
                     <img src="./imagens/images (1).jpg" alt="Tenis da nike">
                     <h3>Tênis Nike Modelo Jordan</h3>
                     <p>
@@ -61,15 +73,7 @@
                     <p>
                         Tênis Nike preto disponível nos tamanhos: 37, 38, 39, 40 e 42
                     </p>
-                    <button type="button">Adicionar ao carrinho</button>
-                </li>
-                <li>
-                    <img src="./imagens/xtenis_nike_preto.png.pagespeed.ic.HCCTeHFX3s.webp" alt="Tenis da nike">
-                    <h3>Tênis Nike Modelo Jordan</h3>
-                    <p>
-                        Tênis Nike preto disponível nos tamanhos: 37, 38, 39, 40 e 42
-                    </p>
-                    <button type="button">Adicionar ao carrinho</button>
+                    <button type="button">Adicionar ao carrinho</button>        
                 </li>
             </ul>
         </div>
